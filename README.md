@@ -9,7 +9,6 @@ source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-Fill in `config.json` with your Azure ML workspace details.
 
 ## Export best model & metrics
 ```bash
