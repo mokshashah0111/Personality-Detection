@@ -1,0 +1,8 @@
+$schema: https://azuremlschemas.azureedge.net/latest/MLTable.schema.json
+type: mltable
+paths:
+  - file: ./personality_synthetic_dataset.csv
+transformations:
+  - read_delimited:
+      delimiter: ','
+      header: all_files_same_headers

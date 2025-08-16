@@ -1,0 +1,30 @@
+creation_context:
+  created_at: '2025-08-15T07:04:33.470925+00:00'
+  created_by: Moksha Shah
+  created_by_type: User
+description: Pipeline created on 20250814
+display_name: Personality_Classification_DecisionTree
+experiment_name: Default
+id: azureml:/subscriptions/f5c9c009-a2b5-4423-ac59-ffb4b4e3db21/resourceGroups/AzureML/providers/Microsoft.MachineLearningServices/workspaces/MyWorkspace/jobs/788d9c26-a738-42da-82b1-676c12b8285f
+name: 788d9c26-a738-42da-82b1-676c12b8285f
+properties:
+  azureml.continue_on_failed_optional_input: 'True'
+  azureml.continue_on_step_failure: 'True'
+  azureml.defaultComputeName: AML-Cluster
+  azureml.defaultDataStoreName: workspaceblobstore
+  azureml.parameters: '{}'
+  azureml.pipelineComponent: pipelinerun
+  azureml.pipelines.stages: '{"Initialization":null,"Execution":{"StartTime":"2025-08-15T07:04:35.546719+00:00","EndTime":"2025-08-15T07:12:32.694971+00:00","Status":"Finished"}}'
+  azureml.runsource: azureml.PipelineRun
+  runSource: Designer
+  runType: HTTP
+resourceGroup: AzureML
+services:
+  Studio:
+    endpoint: https://ml.azure.com/runs/788d9c26-a738-42da-82b1-676c12b8285f?wsid=/subscriptions/f5c9c009-a2b5-4423-ac59-ffb4b4e3db21/resourcegroups/AzureML/workspaces/MyWorkspace&tid=9aa6f4fa-b142-417a-8ea5-6344386709ab
+    type: Studio
+  Tracking:
+    endpoint: azureml://eastus.api.azureml.ms/mlflow/v1.0/subscriptions/f5c9c009-a2b5-4423-ac59-ffb4b4e3db21/resourceGroups/AzureML/providers/Microsoft.MachineLearningServices/workspaces/MyWorkspace?
+    type: Tracking
+status: Completed
+type: pipeline
