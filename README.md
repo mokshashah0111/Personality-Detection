@@ -17,5 +17,5 @@ python scripts/fetch_automl_best.py
 
 ## Run predictions
 ```bash
-python scripts/predict.py assets/sample_input.csv
+python scripts/predict.py MyData/personality_synthetic_dataset.csv
 ```
